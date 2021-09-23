@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NetWork🚀</title>
+    <style>
+
+      p {
+          margin: 0 0 0 0;
+      }
+
+      ul{
+          list-style: none;
+          display: block;
+          overflow: hidden;
+      }
+      ul#ul_packinfo li{
+          float: left;
+          padding: 5px 8px;
+      }
+      ul li.active {
+          background: #2a91e4;
+          color: white;
+      }
+
+      .nav-sidebar {
+          padding: 15px;
+      }
+
+      .nav-sidebar li ul {
+          background-color: tan;
+      }
+
+      ul.nav-sidebar li ul {
+          display: none;
+      }
+
+      #div-group div{
+        display: none;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h2><center>NetWork🚀🚀</center></h2>
+    <div class="container" style="width: 1100px;">
+      <!-- 加载驱动 -->
+      <button type="button" class="btn btn-primary btn-lg btn-block" onclick="start_PipRecv()">
+        开启系统网络监控🍳
+      </button>
+
+      <div class="row" style="padding-left: 25px; padding-top: 10px; padding-bottom: 15px;">
+
+        <!-- 加载数据展示窗口 -->
+        <div id="ippack_show" style="width: 550;">
+
+          <!-- 搜索界面 -->
+          <div class="row">
+            <input type="text" class="form-control" placeholder="Search for..." style="width: 450px;">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Filter</button>     
+            </span>
+          </div>
+
+          <!-- Table -->
+          <div style="overflow-y:scroll; height: 380px;">
+            <table id="table_ip" class="table table-hover">
+              <thead>
+                <tr>
+                  <th><h6>pid</h6></th>
+                  <th><h6>protocol</h6></th>
+                  <th><h6>localaddress</h6></th>
+                  <th><h6>localport</h6></th>
+                  <th><h6>remoteaddress</h6></th>
+                  <th><h6>remoteport</h6></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><h6>4</h6></td>
+                  <td><h6>smb</h6></td>
+                  <td><h6>127.0.0.1</h6></td>
+                  <td><h6>443</h6></td>
+                  <td><h6>127.0.0.1</h6></td>
+                  <td><h6>0</h6></td>
+                </tr>
+              </tbody>
+          </table>
+          </div>
+
+        </div>
+
+        <div>
+
+          <!-- 数据包详细展示窗口 -->
+          <div id="ippack_info" style="width: 450px;">
+            <ul id="ul_packinfo">
+              <li id="btn1" role="presentation" class="active">消息头</li>
+              <li id="btn2" role="presentation"><h6>Cookie</h6></li>
+              <li role="presentation"><a href="#"><h6>请求</h6></a></li>
+              <li role="presentation"><a href="#"><h6>响应</h6></a></li>
+              <li role="presentation"><a href="#"><h6>缓存</h6></a></li>
+              <li role="presentation"><a href="#"><h6>耗时</h6></a></li>
+              <li role="presentation"><a href="#"><h6>栈跟踪</h6></a></li>
+            </ul>
+          </div>
+
+          <div id="div-group">
+            <div id="btn1_div">
+              <ul class="nav-sidebar">
+                  <li>
+                      <p>Get/Post</p>
+                      <!-- <ul> -->
+                      <ul style="display:block;">
+                          <li>-1</li>
+                          <li>-1</li>
+                          <li>-1</li>
+                          <li>-1</li>
+                      </ul>
+                  </li>
+                  <li>
+                      <p>响应头</p>
+                      <ul>
+                          <li>-2</li>
+                      </ul>
+                  </li>
+                  <li>
+                      <p>请求头</p>
+                      <ul>
+                          <li>-3</li>
+                      </ul>
+                  </li>
+              </ul>
+            </div>
+            <div id="btn2_div">Cookie内存</div>
+            <div id="btn3_div">其他1</div>
+            <div id="btn4_div">其他2</div>
+            <div id="btn5_div">其他3</div>
+            <div id="btn6_div">其他4</div>
+            <div id="btn7_div">其他5</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="alert alert-success" role="alert"><center>你对力量一无所知</center></div>
+    </div>
+  </body>
+  <script>window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.js') </script>
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+  <script src="./windowsload.js"></script>
+  <script src="./html_control.js"></script>
+</html>
