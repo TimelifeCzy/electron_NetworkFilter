@@ -1,0 +1,55 @@
+;;;
+;;; Copyright (c) Microsoft Corporation. All rights reserved
+;;;
+;;; Abstract:
+;;;    Monitor Callout sample driver install configuration.
+;;;
+
+[Version]
+	Signature="$WINDOWS NT$"
+	Class=WFPCALLOUTS ; TODO: edit Class
+	ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+	Provider=%ProviderString%
+	CatalogFile=MimiSkyNetWfpKm.cat
+	DriverVer= 12/12/2020,14.24.55.836; TODO: set DriverVer in stampinf property pages
+
+
+[SourceDisksNames]
+   1 = %MimiSkyNetWfpKmDisk%,,,""
+
+[SourceDisksFiles]
+   MimiSkyNetWfpKm.sys = 1,,
+
+[DestinationDirs]
+    DefaultDestDir      = 12                              ; %WinDir%\System32\Drivers
+    MimiSkyNetWfpKm.DriverFiles = 12                              ; %WinDir%\System32\Drivers
+
+[DefaultInstall]
+    OptionDesc = %MimiSkyNetWfpKmServiceDesc%
+    CopyFiles  = MimiSkyNetWfpKm.DriverFiles
+
+[DefaultInstall.Services]
+    AddService = %MimiSkyNetWfpKmServiceName%,,MimiSkyNetWfpKm.Service
+
+[DefaultUninstall]
+    DelFiles = MimiSkyNetWfpKm.DriverFiles
+
+[DefaultUninstall.Services]
+    DelService = %MimiSkyNetWfpKmServiceName%,0x200               ; SPSVCINST_STOPSERVICE
+
+[MimiSkyNetWfpKm.DriverFiles]
+    MimiSkyNetWfpKm.sys,,,0x00000040                              ; COPYFLG_OVERWRITE_OLDER_ONLY
+
+[MimiSkyNetWfpKm.Service]
+    DisplayName   = %MimiSkyNetWfpKmServiceName%
+    Description   = %MimiSkyNetWfpKmServiceDesc%
+    ServiceType   = 1                                     ; SERVICE_KERNEL_DRIVER
+    StartType     = 3                                     ; SERVICE_DEMAND_START
+    ErrorControl  = 1                                     ; SERVICE_ERROR_NORMAL
+    ServiceBinary = %12%\MimiSkyNetWfpKm.sys                      ; %WinDir%\System32\Drivers\MimiSkyNetWfpKm.sys
+
+[Strings]
+    ProviderString     = "TODO-Set-Provider"
+    MimiSkyNetWfpKmDisk        = "Monitor Installation Disk"
+    MimiSkyNetWfpKmServiceDesc = "Monitor Callout Driver"
+    MimiSkyNetWfpKmServiceName = "MimiSkyNetWfpKm"

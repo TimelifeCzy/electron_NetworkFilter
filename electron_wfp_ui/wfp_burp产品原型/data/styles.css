@@ -1,0 +1,492 @@
+﻿.ax_default {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  letter-spacing:normal;
+  color:#333333;
+  vertical-align:none;
+  text-align:center;
+  line-height:normal;
+  text-transform:none;
+}
+._图片_ {
+}
+._一级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._三级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._四级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._六级标题 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+._文本段落 {
+  text-align:left;
+}
+._表单提示 {
+  color:#999999;
+}
+._表单禁用 {
+}
+._流程形状 {
+}
+.box_1 {
+}
+.icon {
+}
+._cut_web__ {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+}
+._形状 {
+  font-family:'苹方';
+  font-weight:normal;
+  font-style:normal;
+  font-size:12px;
+  color:#57575B;
+  text-align:center;
+  line-height:normal;
+}
+._cut_web_bth-primary {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._cut_web_bth-primary-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._cut_web_bth-primary-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._cut_web_btn-primary-disable {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+}
+._cut_web_btn-link {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0091FF;
+  text-align:center;
+}
+._cut_web_btn-link-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#1A9CFF;
+  text-align:center;
+}
+._cut_web_btn-link-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0082E5;
+  text-align:center;
+}
+._cut_web_btn-link-disable {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#C3CBD6;
+  text-align:center;
+}
+._cut_web_bth-default-danger {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#E15D50;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-default-danger-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#CA4D4B;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-default-danger-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#C94C4A;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-link-danger-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#CA4D4B;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-link-danger-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#E9847A;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_btn-icon-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+}
+._cut_web_btn-icon-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
+._cut_web_btn-icon-disable {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+}
+._cut_web_form-text_ {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#8090A0;
+  text-align:right;
+}
+._cut_web_form-text_field {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#DBDDE0;
+  text-align:left;
+}
+._cut_web_form-text_field-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._cut_web_form-text_field-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._cut_web_tab_-__ {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#8090A0;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_tab_-__-hover_tabs {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0091FF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web___tab_-__-focused_tabs {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0091FF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_line {
+}
+._cut_web_text_18px_页面标题、大标题 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#55677D;
+  text-align:left;
+}
+._默认样式 {
+}
+._breadcrumb_background {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#999999;
+  line-height:20px;
+}
+._cut_web_____link {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#999999;
+}
+.line {
+}
+.ellipse {
+}
+.refs-chart-data {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+}
+._cut_web_shape__ {
+}
+.box_2 {
+  font-family:'Tahoma';
+  font-weight:400;
+  font-style:normal;
+  color:#656565;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.flow_shape {
+}
+._cut_web_form-text_field1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#DBDDE0;
+  text-align:left;
+  line-height:20px;
+}
+._cut_web_form-text_field-hover1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+  line-height:20px;
+}
+._cut_web_form-text_field-click1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+  line-height:20px;
+}
+._cut_web_btn-default {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#008CEE;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_btn-default-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0075CE;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_btn-default-click {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#0075CE;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_btn-default-disable {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#C4C8CB;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-primary1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-primary-hover1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_bth-primary-click1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_btn-primary-disable1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_text_14px_______ {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#55677D;
+  text-align:left;
+}
+._cut_web_text_12px_____ {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#008CEE;
+  text-align:left;
+}
+.box_21 {
+}
+.box_3 {
+}
+._图片 {
+}
+._cut_web_form-text_1 {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#55677D;
+  text-align:right;
+  line-height:20px;
+}
+.marker {
+  color:#FFFFFF;
+}
+.checkbox {
+  text-align:left;
+}
+._btn-default {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#008CEE;
+  text-align:center;
+  line-height:20px;
+}
+._cut_web_selcet-label {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#55677D;
+  text-align:left;
+  line-height:20px;
+}
+.form_disabled {
+}
+._cut_web_selcet-label-hover {
+  font-family:'苹方';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#199ED8;
+  text-align:left;
+  line-height:40px;
+}
+.paragraph {
+  text-align:left;
+}
+.image {
+}
+._cut_web_shapeliebiao {
+}
+._cut_web_shapeliebiao-ture {
+}
+textarea, select, input, button { outline: none; }
